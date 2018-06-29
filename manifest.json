@@ -1,0 +1,12 @@
+{
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "default_locale": "en",
+  "description": "Capture Online Activity",
+  "manifest_version": 2,
+  "name": "online",
+  "permissions": ["storage"],
+  "version": "0.0.1"
+}
