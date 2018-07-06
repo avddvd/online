@@ -3,10 +3,22 @@
     "scripts": ["background.js"],
     "persistent": false
   },
-  "default_locale": "en",
+	"content_scripts": [
+	  {
+	    "matches": [
+				"http://*/*",
+				"https://*/*"
+			],
+			"run_at": "document_idle",
+	    "js": ["contentScript.js"]
+	  }
+	],
   "description": "Capture Online Activity",
   "manifest_version": 2,
   "name": "online",
-  "permissions": ["storage"],
+  "permissions": [
+    "activeTab",
+    "*://*/*"
+  ],
   "version": "0.0.1"
 }
