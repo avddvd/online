@@ -3,16 +3,16 @@
     "scripts": ["background.js"],
     "persistent": false
   },
-	"content_scripts": [
-	  {
-	    "matches": [
-				"http://*/*",
-				"https://*/*"
-			],
-			"run_at": "document_idle",
-	    "js": ["contentScript.js"]
-	  }
-	],
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "run_at": "document_idle",
+      "js": ["contentScript.js"]
+    }
+  ],
   "description": "Capture Online Activity",
   "manifest_version": 2,
   "name": "online",
