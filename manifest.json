@@ -3,16 +3,25 @@
     "scripts": ["background.js"],
     "persistent": false
   },
-	"content_scripts": [
-	  {
-	    "matches": [
-				"http://*/*",
-				"https://*/*"
-			],
-			"run_at": "document_idle",
-	    "js": ["contentScript.js"]
-	  }
-	],
+  "browser_action": {
+    "default_icon": {      
+      "16": "images/storeicon-16.png",
+      "48": "images/storeicon-48.png",
+      "128": "images/storeicon-128.png"
+    },
+    "default_tile": "Online Activity",
+    "default_popup": "index.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+	"http://*/*",
+	"https://*/*"
+      ],
+      "run_at": "document_idle",
+      "js": ["contentScript.js"]
+    }
+  ],
   "description": "Capture Online Activity",
   "manifest_version": 2,
   "name": "online",
@@ -20,5 +29,10 @@
     "activeTab",
     "*://*/*"
   ],
+  "icons": {
+    "16": "images/storeicon-16.png",
+    "48": "images/storeicon-48.png",
+    "128": "images/storeicon-128.png"
+  },
   "version": "0.0.1"
 }
