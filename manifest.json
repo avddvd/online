@@ -19,7 +19,10 @@
         "https://*/*"
       ],
       "run_at": "document_idle",
-      "js": ["contentScript.js"]
+      "js": [
+        "Readability.js",
+        "contentScript.js"
+      ]
     }
   ],
   "description": "Capture Online Activity",
