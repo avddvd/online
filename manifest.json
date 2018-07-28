@@ -25,6 +25,7 @@
       ]
     }
   ],
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtFi2mTxXJ6c7kNqmzKqCbJlFUfRd+u0B6b1nzo++XiDxD0n6tksqJnczkCTlklftzze9s+bKVjhzdYSzThIdyJJT7k4BeknCz0S8AdJ2fYVzzmUQnOyPdXzyxqTBmd0t0B5cjJzIml20GI2yxgMIu5PUwKYHVEvd+H5sAh2960Y3O2kue4MKoLUf50Cv80ZC7DhTca6gsfxPD8n3YP7gTuCeusyYqlIHOsrnZKi0oKdOeSztjXZc4Z94PL4Z79VoepQepnYPIksn/eCV19ZUSwipQUHJg2xM/gCEXnfIImhBNtwZJPfUAYlPu4N2UARRULkiWEJl+GpsT5UR3SgdiwIDAQAB",
   "description": "Capture Online Activity",
   "manifest_version": 2,
   "name": "online",
